@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.eins {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.zwei {
+  margin: auto auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  width: 300px;
+  padding: 25px;
+  padding-bottom: 63px;
+}
+
+.equi {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  left: -71px;
+  font-weight: 600;
+}
+
+p.e1 {
+  color: #95adca;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+p.e2 {
+  color: hsl(178, 100%, 50%);
+  text-align: left;
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+}
+
+p.e3 {
+  color: #95adca;
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+}
+
+img.bild1 {
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  top: 690px;
+}
+
+p.copy2 {
+  color: #95adca;
+  position: relative;
+  left: -13px;
+  top: 26px;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+hr {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  border: none;
+}
+
+span.name1 {
+  color: white;
+}
+
+span.name1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.equi:hover {
+  background-image: url(/images/icon-view.svg);
+  image: url(/images/icon-view.svg);
+}
+
+.attribution {
+  text-align: center;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+
+.attribution a {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
